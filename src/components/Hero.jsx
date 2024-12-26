@@ -68,7 +68,7 @@ const Hero = () => {
       >
         {/* Image with improved responsiveness */}
         <motion.img
-          src="src/assets/images/varunbhardwaj.jpg"
+          src="assets/images/varunbhardwaj.jpg"
           alt="Varun Bhardwaj"
           className="rounded-full w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 shadow-xl mx-auto mb-6"
           initial={{ scale: 0 }}

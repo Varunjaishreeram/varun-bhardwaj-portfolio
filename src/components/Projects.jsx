@@ -16,7 +16,7 @@ const projects = [
       { name: "React", icon: <FaReact size={18} /> },
       { name: "PostgreSQL", icon: <SiPostgresql size={18} /> },
     ],
-    photo: "src/assets/images/VideoSharingProject.png", // Replace with actual image URL
+    photo: "assets/images/VideoSharingProject.png", // Replace with actual image URL
     github: "https://github.com/Varunjaishreeram/campustube",
     link: "https://github.com/Varunjaishreeram/campustube",
   },
@@ -29,7 +29,7 @@ const projects = [
       { name: "Next.js", icon: <SiNextdotjs size={18} /> },
       { name: "PostgreSQL", icon: <SiPostgresql size={18} /> },
     ],
-    photo: "src/assets/images/Ecart.png", // Replace with actual image URL
+    photo: "assets/images/Ecart.png", // Replace with actual image URL
     github: "https://github.com/username/food-order-ecommerce",
     link: "https://pickbazar-react-rest.vercel.app/",
   },
@@ -42,7 +42,7 @@ const projects = [
       { name: "Python", icon: <SiPython size={18} /> },
       { name: "Flask", icon: <SiFlask size={18} /> },
     ],
-    photo: "src/assets/images/AiChatBotProject.png", // Replace with actual image URL
+    photo: "assets/images/AiChatBotProject.png", // Replace with actual image URL
     github: "https://github.com/Varunjaishreeram",
     link: "https://github.com/Varunjaishreeram",
   },
