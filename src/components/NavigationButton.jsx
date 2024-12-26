@@ -81,7 +81,7 @@ const NavigationHeader = () => {
                 <li onClick={() => scrollToSection("#contact")}>Contact</li>
                 <li
                   className="resume-link"
-                  onClick={() => window.open("https://your-resume-link.com", "_blank")}
+                  onClick={() => window.open("https://drive.google.com/file/d/1zUHHHA36VFsLrUCvcm3WWgn42X7Id27x/view?usp=sharing", "_blank")}
                 >
                   Resume
                 </li>
