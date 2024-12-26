@@ -1,0 +1,127 @@
+/* Large Screen Styles */
+.floating-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  z-index: 10;
+  transition: top 0.3s ease;
+}
+
+.nav-links-horizontal {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links-horizontal li {
+  margin: 0 15px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-links-horizontal li:hover {
+  transform: translateY(-5px);
+  color: #007bff;
+}
+
+.resume-link {
+  border: 2px solid #00ff00;
+  padding: 3px 6px;
+  transition: background-color 0.3s ease;
+}
+
+.resume-link:hover {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+
+/* Mobile Styles */
+.navigation-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0); /* Semi-transparent dark background - KEY CHANGE */
+}
+
+.navigation-button {
+  cursor: pointer;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+  width: 30px;
+  
+  background-color: transparent; /* Correct: No background on button */
+}
+
+.navigation-button.close {
+  transform: rotate(45deg);
+}
+
+.hamburger-bar {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(255, 79, 82);
+  z-index: 30;
+  margin: 3px 0;
+  transition: transform 0.3s ease;
+}
+
+.navigation-dropdown {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 19;
+  overflow-y: auto;
+}
+
+.navigation-links {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigation-links li {
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  transition: transform 0.3s ease, color 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navigation-links li:hover {
+  transform: translateY(-5px);
+  color: #007bff;
+}
+
+.navigation-links .resume-link {
+  border: 2px solid #00ff00;
+  padding: 13px 18px;
+  transition: background-color 0.3s ease;
+}
+
+.navigation-links .resume-link:hover {
+  background-color: rgba(0, 255, 0, 0.2);
+}
