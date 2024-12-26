@@ -30,7 +30,7 @@ const projects = [
       { name: "PostgreSQL", icon: <SiPostgresql size={18} /> },
     ],
     photo: "assets/images/Ecart.png", // Replace with actual image URL
-    github: "https://github.com/username/food-order-ecommerce",
+    github: "https://github.com/Varunjaishreeram/NextjsBackend",
     link: "https://pickbazar-react-rest.vercel.app/",
   },
   {
