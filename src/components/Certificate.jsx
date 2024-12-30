@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const certificates = [
   {
     id: 1,
-    title: "Backend Development APIs And Certification",
+    title: "Backend Development And APIs Certification",
     organization: "freeCodeCamp",
     image: "assets/images/certificate.png", // Ensure this image exists in the public directory
   },
