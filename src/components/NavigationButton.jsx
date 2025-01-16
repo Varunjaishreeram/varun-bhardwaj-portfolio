@@ -51,6 +51,7 @@ const NavigationHeader = () => {
           <ul className="nav-links-horizontal">
             <li onClick={() => scrollToSection("#project")}>Projects</li>
             <li onClick={() => scrollToSection("#experience")}>Experience</li>
+            <li onClick={() => scrollToSection("#SkillsShowcase")}>Skills</li>
             <li onClick={() => scrollToSection("#certificate")}>Certificate</li>
             <li onClick={() => scrollToSection("#contact")}>Contact</li>
             <li

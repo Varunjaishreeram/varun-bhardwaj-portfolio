@@ -69,10 +69,10 @@ const About = () => {
           <p className="text-lg mb-6 leading-relaxed">
             Hi, I'm <span className="font-bold text-purple-600">Varun Bhardwaj</span>, a versatile
             <span className="font-bold text-blue-500"> Full Stack Developer</span>, 
-            <span className="font-bold text-green-500"> Python Developer</span> 
+            <span className="font-bold text-green-500"> Python Developer</span> and <span className='font-bold'>B.Tech graduate in Computer Science Engineering </span>
             . I specialize in building scalable, modern applications while crafting seamless user experiences. 
             When I'm not coding, I love sharing my insights on <span className="font-bold text-purple-600">Quora</span>, writing on topics that resonate with me. 
-            Feel free to check out my 
+            Feel free to check out my
             <a
               href="https://www.quora.com/profile/Varun-Bharadwaj-67"
               target="_blank"

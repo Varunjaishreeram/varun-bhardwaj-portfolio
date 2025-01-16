@@ -31,9 +31,7 @@ const ContactSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          I am actively seeking opportunities as a Backend Developer, Python Developer and Full
-          Stack Engineer. Whether you have a question or just want to say hi,
-          I’ll try my best to get back to you!
+          I am actively seeking exciting opportunities as a Backend Developer, Python Developer, or Full Stack Engineer. If you're looking to hire a passionate software developer, or if you simply want to say hi, feel free to reach out—I’d love to connect and will do my best to respond promptly!
         </motion.p>
 
         {/* Contact Button */}
