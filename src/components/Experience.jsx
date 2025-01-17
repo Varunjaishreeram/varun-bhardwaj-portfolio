@@ -5,6 +5,7 @@ import { SiDjango, SiReact, SiMongodb, SiFlask, SiNestjs } from "react-icons/si"
 import { BiLogoPostgresql } from "react-icons/bi";
 import { BsDatabaseCheck } from "react-icons/bs";
 import { AiOutlineArrowDown } from "react-icons/ai";
+import { LiaHandPointer } from "react-icons/lia";
 
 const experiences = [
   {
@@ -14,10 +15,10 @@ const experiences = [
     details:
       "Developed Node.js APIs and Vue.js frontend components, leveraging MongoDB and PostgreSQL for data management.",
     techStack: [
-      <FaNode size={30} />,
-      <FaVuejs size={30} />,
-      <SiMongodb size={30} />,
-      <BiLogoPostgresql size={30} />
+      <FaNode size={30} color="#339933" />,
+      <FaVuejs size={30} color="#4FC08D" />,
+      <SiMongodb size={30} color="#47A248" />,
+      <BiLogoPostgresql size={30} color="#336791" />
     ],
   },
   {
@@ -27,11 +28,11 @@ const experiences = [
     details:
       "Spearheaded Node.js, NestJS API development, optimizing MongoDB, PostgreSQL databases.",
     techStack: [
-      <SiNestjs size={30} />,
-      <FaNode size={30} />,
-      <SiMongodb size={30} />,
-      <BsDatabaseCheck size={30} />,
-      <SiReact size={30} />
+      <SiNestjs size={30} color="#E0234E" />,
+      <FaNode size={30} color="#339933" />,
+      <SiMongodb size={30} color="#47A248" />,
+      <BsDatabaseCheck size={30} color="#007ACC" />,
+      <SiReact size={30} color="#61DAFB" />
     ],
   },
   {
@@ -41,12 +42,12 @@ const experiences = [
     details:
       "Worked as a freelancer for Talenrn, completing various software development tasks for clients.",
     techStack: [
-      <SiDjango size={30} />,
-      <SiReact size={30} />,
-      <FaNode size={30} />,
-      <SiFlask size={30} />,
-      <BsDatabaseCheck size={30} />,
-      <SiMongodb size={30} />
+      <SiDjango size={30} color="#092E20" />,
+      <SiReact size={30} color="#61DAFB" />,
+      <FaNode size={30} color="#339933" />,
+      <SiFlask size={30} color="#000000" />,
+      <BsDatabaseCheck size={30} color="#007ACC" />,
+      <SiMongodb size={30} color="#47A248" />
     ],
   },
 ];
@@ -91,7 +92,7 @@ const ExperienceShowcase = () => {
               </div>
 
               {/* Down Arrow */}
-              <AiOutlineArrowDown
+              <LiaHandPointer
                 className="absolute bottom-2 right-2 text-gray-600 hover:text-gray-800 transition"
                 size={20}
               />
