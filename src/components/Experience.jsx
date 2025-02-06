@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaNode, FaVuejs } from "react-icons/fa";
-import { SiDjango, SiReact, SiMongodb, SiFlask, SiNestjs } from "react-icons/si";
+import { SiDjango, SiReact, SiMongodb, SiFlask, SiNestjs, SiFastapi } from "react-icons/si";
+import { LiaPython } from "react-icons/lia";
+
 import { BiLogoPostgresql } from "react-icons/bi";
 import { BsDatabaseCheck } from "react-icons/bs";
 import { AiOutlineArrowDown } from "react-icons/ai";
@@ -10,8 +12,30 @@ import { LiaHandPointer } from "react-icons/lia";
 const experiences = [
   {
     id: 1,
-    title: "Full Stack Developer",
-    subtitle: "Huulke Technologies India Private Limited | June 2024 - Sep 2024",
+    title: "Aivoa Technologies Private Limited",
+    desc: "Python Developer",
+    subtitle: "Aivoa Technologies Private Limited | Jan 2023 - Present",
+    details: "Developed FastAPI backend services and reactjs frontend components, leveraging PostgreSQL for data management.",
+    techStack: [
+      <SiFastapi size={30} color="#009688" />,
+      <SiReact size={30} color="#61DAFB" />,
+      <LiaPython size={30} color="#306998" />,
+      <BiLogoPostgresql size={30} color="#336791" />
+    ],
+
+
+
+
+
+  }
+  ,
+
+
+  {
+    id: 2,
+    title: "Huulke Technologies India Private Limited",
+    desc: "Full Stack Developer",
+    subtitle: "Huulke Technologies India Private Limited | June 2024 - Oct 2024",
     details:
       "Developed Node.js APIs and Vue.js frontend components, leveraging MongoDB and PostgreSQL for data management.",
     techStack: [
@@ -22,8 +46,9 @@ const experiences = [
     ],
   },
   {
-    id: 2,
-    title: "Software Developer Engineer",
+    id: 3,
+    title: "Code InBound LLP",
+    desc: "Software Developer Engineer",
     subtitle: "Code InBound LLP | June 2023 - Jan 2024 | Janakpuri, New Delhi",
     details:
       "Spearheaded Node.js, NestJS API development, optimizing MongoDB, PostgreSQL databases.",
@@ -36,8 +61,9 @@ const experiences = [
     ],
   },
   {
-    id: 3,
-    title: "Freelancer",
+    id: 4,
+    title: "Talenrn",
+    desc: "Freelancer",
     subtitle: "Talenrn Company | 2021",
     details:
       "Worked as a freelancer for Talenrn, completing various software development tasks for clients.",
@@ -81,6 +107,7 @@ const ExperienceShowcase = () => {
               onClick={() => setSelectedExperience(exp)}
             >
               <h3 className="text-sm font-bold mb-2">{exp.title}</h3>
+              <p className="text-sm font-semibold mb-3">{exp.desc}</p>
 
               {/* Tech Stack Icons */}
               <div className="flex gap-3 text-gray-700">

@@ -19,6 +19,8 @@ const Home = () => {
       <div id="project"><Project /></div>
       <div id="certificate"><CertificateShowcase/></div>
       <div id="contact"><ContactSection /></div>
+    
+      
     </div>
   );
 };
