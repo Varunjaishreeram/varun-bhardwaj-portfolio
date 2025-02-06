@@ -18,6 +18,7 @@ import {
   SiFlask,
   SiNextdotjs,
   SiRedux,
+  SiFastapi
 } from "react-icons/si";
 
 const skills = [
@@ -36,6 +37,7 @@ const skills = [
   { id: 13, name: "Next.js", icon: <SiNextdotjs size={40} color="#000000" /> },
   { id: 14, name: "Redux", icon: <SiRedux size={40} color="#764ABC" /> },
   { id: 15, name: "Git", icon: <FaGitAlt size={40} color="#F05032" /> },
+  { id: 16, name: "FastAPI", icon: <SiFastapi size={40} color="#009688" /> },
 ];
 
 const SkillsShowcase = () => {
