@@ -15,7 +15,7 @@ const experiences = [
     title: "Aivoa Technologies Private Limited",
     desc: "Python Developer",
     subtitle: "Aivoa Technologies Private Limited | Jan 2023 - Present",
-    details: "Developed FastAPI backend services and reactjs frontend components, leveraging PostgreSQL for data management.",
+    details: "Developed FastAPI backend services and reactjs frontend components, I also integrated Langraph AI to enhance the system's functionality, leveraging machine learning for advanced features, leveraging PostgreSQL for data management.",
     techStack: [
       <SiFastapi size={30} color="#009688" />,
       <SiReact size={30} color="#61DAFB" />,
