@@ -56,7 +56,7 @@ const NavigationHeader = () => {
             <li onClick={() => scrollToSection("#contact")}>Contact</li>
             <li
               className="resume-link"
-              onClick={() => window.open("https://drive.google.com/file/d/1cBFg7WS_s7KjEETS2fOlArV0s0ymp5Uo/view?usp=sharing", "_blank")}
+              onClick={() => window.open("https://drive.google.com/file/d/1plwd1bjxJfjquJJ2IxkXzt20q2J4w3Ad/view", "_blank")}
             >
               Resume
             </li>
@@ -84,7 +84,7 @@ const NavigationHeader = () => {
                 <li onClick={() => scrollToSection("#contact")}>Contact</li>
                 <li
                   className="resume-link"
-                  onClick={() => window.open("https://drive.google.com/file/d/1cBFg7WS_s7KjEETS2fOlArV0s0ymp5Uo/view?usp=sharing", "_blank")}
+                  onClick={() => window.open("https://drive.google.com/file/d/1plwd1bjxJfjquJJ2IxkXzt20q2J4w3Ad/view", "_blank")}
                 >
                   Resume
                 </li>
